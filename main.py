@@ -1,5 +1,5 @@
 """
-Main module to execute the Indeed job scraping and database storage process.
+Main module to execute the Indeed job scraping and storing in database process.
 """
 from crawler import IndeedJobScraper
 from database import DatabaseManager
