@@ -5,7 +5,7 @@ Enums module for storing configuration values.
 import os
 from dotenv import load_dotenv
 
-load_dotenv()  # Load environment variables from .env file
+load_dotenv()
 
 class DbConfig:
     HOST_NAME = os.getenv("DB_HOST_NAME", "")
