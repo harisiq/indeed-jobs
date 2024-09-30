@@ -1,5 +1,5 @@
 """
-Crawler module for scraping job listings from the Indeed website.
+Crawler module for scraping job listings from the Indeed Jobs.
 """
 
 import time
