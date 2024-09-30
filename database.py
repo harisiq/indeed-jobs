@@ -7,8 +7,7 @@ from loguru import logger
 from enums import DbConfig
 from dotenv import load_dotenv
 
-load_dotenv()  # Load environment variables from .env file
-
+load_dotenv()
 class DatabaseManager:
     def __init__(self):
         self.conn = None
